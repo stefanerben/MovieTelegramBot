@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from telegram.ext.conversationhandler import ConversationHandler
-from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+from api.searchForMovie import getMovieInfoFor
 from modules.telegram import keyboard
 
 ID = ""
@@ -17,6 +17,7 @@ def findMovies(update, context):
     search_text = update.message.text
     context.bot.send_message(chat_id=update.effective_chat.id, text="Searching for: " + search_text )
     
+    
     # TODO get movies based on 'search_text'
     movies = [
         {"id":"tt0111161","name":"The Shawshank Redemption"},
@@ -24,12 +25,14 @@ def findMovies(update, context):
         {"id":"tt0167260","name":"The Lord of the Rings: The Return of the King"},
         {"id":"tt0468569","name":"The Dark Knight"},
     ];
+
+    movies = getMovieInfoFor(search_text)
     
     keyboard = []
     
     # get top 3 movies
-    for x in range(3):
-      keyboard.append([InlineKeyboardButton(movies[x]["name"], callback_data=movies[x]["id"])])
+    for ele in movies[:2]:
+      keyboard.append([InlineKeyboardButton(ele["Title"], callback_data=ele["imdbID"])])
     keyboard.append([InlineKeyboardButton("Cancel", callback_data="cancel")])
 
 
