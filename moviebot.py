@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import random, config, traceback
+from api.streamingAvailability import getStreamingAvailabilityFor
 from logging import basicConfig, INFO, getLogger
 
 from modules.telegram import keyboard, conversionhandler
@@ -76,6 +77,7 @@ def main():
 def button(update, context):
     # Parses the CallbackQuery and updates the message text.
     query = update.callback_query
+    print(query)
     
     if "tt" in query.data:
         getMovieInformation(update, context, imbd_id=query.data)
@@ -150,13 +152,33 @@ def getMovieInformation(update, context, imbd_id=""):
 
     
     # TODO: get data from api via 'imbd_id'
+    data = getStreamingAvailabilityFor(imbd_id)
     
-    # Demo Data
-    name = "Spider-Man"
-    streaming_services = [
-        {"name":"Netflix","link":"https://www.netflix.com/title/60004481"},
-        {"name":"Amazon Prime","link":"https://www.amazon.de/gp/video/detail/amzn1.dv.gti.bea9f6bc-f205-6fb2-bfef-2a99f8a81a41"},
-    ] 
+    name = data['originalTitle'] # The Lord of the Rings: The Fellowship of the Ring
+    imdb_rating = data['imdbRating'] # 88 (int)
+    backdrop_url = data['backdropURLs']['original'] # https://image.tmdb.org/t/p/original/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg
+    countries = data['countries'] # ["NZ", "US"]
+    year = data['year'] # 2001 (int)
+    runtime = data['runtime'] # 179 (int)
+    cast = data['cast'] # ["Elijah Wood", "Ian McKellen", "Liv Tyler", "Viggo Mortensen", "Sean Bean", "Sean Astin", "Cate Blanchett"]
+    overview = data['overview'] # "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed."
+    tagline = data['tagline'] # "One ring to rule them all"
+    poster_url = data['posterURLs']['original'] # "https://image.tmdb.org/t/p/original/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+    streaming_info = data['streamingInfo'] # "hbo":{ "us":{ "link":"https://play.hbomax.com/page/urn:hbo:page:GXdu2ZAglVJuAuwEAADbA:type:feature", "added":1606841026, "leaving":0 }}
+
+    streaming_services = []
+    for service in streaming_info:
+        if service == 'hbo':
+            continue
+        for country in streaming_info[service]:
+            streaming_services.append({
+                "name" : service,
+                "link" : streaming_info[service][country]['link']
+            })
+
+    if len(streaming_services) == 0:
+        context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, this movie is not available for streaming in your country!")
+        return
         
     keyboard = []
     

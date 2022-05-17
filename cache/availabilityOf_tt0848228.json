@@ -1,0 +1,62 @@
+{
+    "imdbID": "tt0120737",
+    "tmdbID": "120",
+    "imdbRating": 88,
+    "imdbVoteCount": 1797934,
+    "tmdbRating": 84,
+    "backdropPath": "/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg",
+        "original": "https://image.tmdb.org/t/p/original/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg"
+    },
+    "originalTitle": "The Lord of the Rings: The Fellowship of the Ring",
+    "genres": [
+        28,
+        12
+    ],
+    "countries": [
+        "NZ",
+        "US"
+    ],
+    "year": 2001,
+    "runtime": 179,
+    "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Liv Tyler",
+        "Viggo Mortensen",
+        "Sean Bean",
+        "Sean Astin",
+        "Cate Blanchett"
+    ],
+    "significants": [
+        "Peter Jackson"
+    ],
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "overview": "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed.",
+    "tagline": "One ring to rule them all",
+    "video": "_nZdmwHrcnw",
+    "posterPath": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "original": "https://image.tmdb.org/t/p/original/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+    },
+    "age": 11,
+    "streamingInfo": {
+        "hbo": {
+            "us": {
+                "link": "https://play.hbomax.com/page/urn:hbo:page:GXdu2ZAglVJuAuwEAADbA:type:feature",
+                "added": 1606841026,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}

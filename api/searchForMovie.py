@@ -6,7 +6,7 @@ from json import loads as loadJson
 from modules.misc import doesCachedFileExist, loadFileFromCache, saveFileToCache
 
 def getMovieInfoFor(searchString):
-    """ Returns a dictionary including multiple movies related to the search string.
+    """ Returns a list including multiple movies related to the search string.
     Elements for each movie in the dict:
 
     Title  : str --> Avengers: Endgame
@@ -17,8 +17,8 @@ def getMovieInfoFor(searchString):
     """
 
     # Caching stuff
-    if config.DEBUG and doesCachedFileExist('movieInfo.json'):
-        return loadFileFromCache('movieInfo.json')
+    if doesCachedFileExist('movieInfoFor_' + searchString + '.json'):
+        return loadFileFromCache('movieInfoFor_' + searchString + '.json')
 
     url = "https://movie-database-alternative.p.rapidapi.com/"
     querystring = {
@@ -33,7 +33,6 @@ def getMovieInfoFor(searchString):
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
-    print(loadJson(response.text))
     response = loadJson(response.text)
     if response['Response'] == 'True':
         result = response['Search']
@@ -41,7 +40,7 @@ def getMovieInfoFor(searchString):
         return False # Movie not found
 
     # Caching stuff
-    if config.DEBUG and not doesCachedFileExist('movieInfo.json'):
-        saveFileToCache('movieInfo.json', result)
+    #if config.DEBUG and not doesCachedFileExist('movieInfo.json'):
+    saveFileToCache('movieInfoFor_' + searchString + '.json', result)
 
     return result
