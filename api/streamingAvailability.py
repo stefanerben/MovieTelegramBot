@@ -21,7 +21,7 @@ def getStreamingAvailabilityFor(imdbId):
 
     url = "https://streaming-availability.p.rapidapi.com/get/basic"
 
-    querystring = {"country":"us","tmdb_id":"movie/120","output_language":"en"}
+    querystring = {"country":"at","imdb_id": imdbId, "output_language":"en"}
 
     headers = {
         "X-RapidAPI-Host": "streaming-availability.p.rapidapi.com",

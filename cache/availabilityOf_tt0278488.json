@@ -1,0 +1,61 @@
+{
+    "imdbID": "tt0278488",
+    "tmdbID": "8386",
+    "imdbRating": 62,
+    "imdbVoteCount": 57562,
+    "tmdbRating": 63,
+    "backdropPath": "/O9VneadUXc1irQef9ZkjPtuWd.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/O9VneadUXc1irQef9ZkjPtuWd.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/O9VneadUXc1irQef9ZkjPtuWd.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/O9VneadUXc1irQef9ZkjPtuWd.jpg",
+        "original": "https://image.tmdb.org/t/p/original/O9VneadUXc1irQef9ZkjPtuWd.jpg"
+    },
+    "originalTitle": "How High",
+    "genres": [
+        35,
+        14
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2001,
+    "runtime": 93,
+    "cast": [
+        "Method Man",
+        "Redman",
+        "Obba Babatund\u00e9",
+        "Mike Epps",
+        "Anna Maria Horsford",
+        "Fred Willard",
+        "Jeffrey Jones"
+    ],
+    "significants": [
+        "Jesse Dylan"
+    ],
+    "title": "How High",
+    "overview": "Multi-platinum rap superstars Redman and Method Man star as Jamal and Silas, two regular guys who smoke something magical, ace their college entrance exams and wind up at Harvard. Ivy League ways are strange but Silas and Jamal take it in a stride -- until their supply of supernatural smoke runs dry. That's when they have to start living by their wits and rely on their natural resources to make the grade.",
+    "tagline": "They've got their degrees all rolled up.",
+    "video": "wN9MScUbMng",
+    "posterPath": "/x6NMlhvk3fgfXhHLz19h0I9Hl0q.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/x6NMlhvk3fgfXhHLz19h0I9Hl0q.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/x6NMlhvk3fgfXhHLz19h0I9Hl0q.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/x6NMlhvk3fgfXhHLz19h0I9Hl0q.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/x6NMlhvk3fgfXhHLz19h0I9Hl0q.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/x6NMlhvk3fgfXhHLz19h0I9Hl0q.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/x6NMlhvk3fgfXhHLz19h0I9Hl0q.jpg",
+        "original": "https://image.tmdb.org/t/p/original/x6NMlhvk3fgfXhHLz19h0I9Hl0q.jpg"
+    },
+    "age": 16,
+    "streamingInfo": {
+        "netflix": {
+            "de": {
+                "link": "https://www.netflix.com/title/60021993/",
+                "added": 1600283847,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}
