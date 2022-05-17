@@ -27,6 +27,8 @@ def findMovies(update, context):
     ];
 
     movies = getMovieInfoFor(search_text)
+    if not movies:
+        update.message.reply_text("No movie found for this search term!", reply_markup=reply_markup)
     
     keyboard = []
     

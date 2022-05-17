@@ -1,64 +1,29 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from random import randint
-import random
-from pytz import timezone
-from datetime import time
-from os import path, mkdir, listdir, remove
-from sys import argv
+import random, config, traceback
+from logging import basicConfig, INFO, getLogger
+
+from modules.telegram import keyboard, conversionhandler
+
+from telegram.ext import CallbackQueryHandler, CommandHandler
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext.conversationhandler import ConversationHandler
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-from logging import basicConfig, INFO, getLogger
-from uuid import getnode as get_mac
-from modules.telegram import config
-from modules.telegram import keyboard
-from telegram.replykeyboardmarkup import ReplyKeyboardMarkup
-from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
-
-from modules.telegram import conversionhandler
-
-import traceback
-import sys
 
 
 basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=INFO)
 logger = getLogger(__name__)
 
+config.init()
+config.DEBUG = True
+        
+if config.DEBUG:
+    print("####### STARTING IN DEBUG MODE #######")
+
 TOKEN = '5363080082:AAHltCun16zDne1St_7dGuaJTMIoQPYu0_E' # @movie_syi_bot
 
-user_stefan = 493061159
-user_andi = 149973288
-user_guenter = 1660362105
-group_testing = -1001332187854
-group_content = -368969908
-
-ALLOWED_USERS = [user_stefan, user_andi, user_guenter]
-
-config.init()
-config.ANDI_CHAT_ID = 149973288
-
-if str(get_mac()) in ["167732541124792", "44529405125913", "132127266411682", "88263148587823", "167732541124788", "44529405125909", "450626377178", "189617194709026", "189617194709029"]:
-    config.CHAT_ID = group_testing
-    TOKEN = '5363080082:AAHltCun16zDne1St_7dGuaJTMIoQPYu0_E' # @movie_syi_bot
-    debug = True
-else:
-    config.CHAT_ID = group_content
-    TOKEN = '5363080082:AAHltCun16zDne1St_7dGuaJTMIoQPYu0_E' # @movie_syi_bot
-    debug = False
-    
-if len(sys.argv[1:]) >= 1:
-    if sys.argv[1:][0] == 'debug':
-        config.CHAT_ID = group_testing
-        TOKEN = '5363080082:AAHltCun16zDne1St_7dGuaJTMIoQPYu0_E' # @movie_syi_bot
-        debug = True
-
-        
-if debug:
-    print("####### STARTING IN DEBUG MODE #######")
-    
 
 """##########################################################"""
 
@@ -100,7 +65,7 @@ def main():
     unknown_handler = MessageHandler(Filters.command, unknown)
     dispatcher.add_handler(unknown_handler)
     
-    if not debug:
+    if not config.DEBUG:
         dispatcher.add_error_handler(error_callback)
         
     #updater.bot.send_message(chat_id=config.CHAT_ID, text="ContentEngine Online!", reply_markup=getDefaultKeyboard())
@@ -208,7 +173,7 @@ def getMovieInformation(update, context, imbd_id=""):
 def error_callback(update, context):
     message = 'Update ' + str(update) + ' caused error ' + str(context.error)
     logger.warning(message)
-    context.bot.send_message(chat_id=user_stefan, text=message, reply_markup=keyboard.getDefaultKeyboard())
+    context.bot.send_message(chat_id=update.effective_chat.id, text=message, reply_markup=keyboard.getDefaultKeyboard())
 
 
 if __name__ == '__main__':

@@ -1,6 +1,9 @@
+import config
 
 import requests
 from json import loads as loadJson
+
+from modules.misc import doesCachedFileExist, loadFileFromCache, saveFileToCache
 
 def getMovieInfoFor(searchString):
     """ Returns a dictionary including multiple movies related to the search string.
@@ -12,6 +15,10 @@ def getMovieInfoFor(searchString):
     Type   : str --> movie
     Poster : str --> https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg
     """
+
+    # Caching stuff
+    if config.DEBUG and doesCachedFileExist('movieInfo.json'):
+        return loadFileFromCache('movieInfo.json')
 
     url = "https://movie-database-alternative.p.rapidapi.com/"
     querystring = {
@@ -26,6 +33,15 @@ def getMovieInfoFor(searchString):
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
-    formatted = loadJson(response.text)
+    print(loadJson(response.text))
+    response = loadJson(response.text)
+    if response['Response'] == 'True':
+        result = response['Search']
+    else:
+        return False # Movie not found
 
-    return formatted['Search']
+    # Caching stuff
+    if config.DEBUG and not doesCachedFileExist('movieInfo.json'):
+        saveFileToCache('movieInfo.json', result)
+
+    return result
