@@ -1,0 +1,54 @@
+{
+    "imdbID": "tt10160886",
+    "tmdbID": "756187",
+    "imdbRating": 42,
+    "imdbVoteCount": 495,
+    "tmdbRating": 64,
+    "backdropPath": "/AfRgDih0N952YNipEHKS1t7PkEi.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/AfRgDih0N952YNipEHKS1t7PkEi.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/AfRgDih0N952YNipEHKS1t7PkEi.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/AfRgDih0N952YNipEHKS1t7PkEi.jpg",
+        "original": "https://image.tmdb.org/t/p/original/AfRgDih0N952YNipEHKS1t7PkEi.jpg"
+    },
+    "originalTitle": "Sneakerella",
+    "genres": [
+        35,
+        10751,
+        4
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2022,
+    "runtime": 110,
+    "cast": [
+        "Chosen Jacobs",
+        "Lexi Underwood",
+        "Kolton Stewart",
+        "Devyn Nekoda",
+        "Robyn Alomar",
+        "John Salley",
+        "Yvonne Senat Jones"
+    ],
+    "significants": [
+        "Elizabeth Allen Rosenbaum"
+    ],
+    "title": "Sneakerella",
+    "overview": "When El, an aspiring sneaker designer from Queens, meets Kira King, the fiercely independent daughter of legendary basketball star and sneaker tycoon Darius King, sparks fly as the two bond over their mutual affinity for sneakers. With a little nudge from his best friend and a sprinkle of Fairy Godfather magic, El finds the courage to use his talent to pursue his dream of becoming a \u2018legit\u2019 sneaker designer in the industry.",
+    "tagline": "Lace up and dream.",
+    "video": "5vmaG3MUrYg",
+    "posterPath": "/jJ07f8DTdeWnCKCwDzB4htLXKBN.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/jJ07f8DTdeWnCKCwDzB4htLXKBN.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/jJ07f8DTdeWnCKCwDzB4htLXKBN.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/jJ07f8DTdeWnCKCwDzB4htLXKBN.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/jJ07f8DTdeWnCKCwDzB4htLXKBN.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/jJ07f8DTdeWnCKCwDzB4htLXKBN.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/jJ07f8DTdeWnCKCwDzB4htLXKBN.jpg",
+        "original": "https://image.tmdb.org/t/p/original/jJ07f8DTdeWnCKCwDzB4htLXKBN.jpg"
+    },
+    "age": 5,
+    "streamingInfo": {},
+    "originalLanguage": "en"
+}

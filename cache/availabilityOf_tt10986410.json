@@ -1,0 +1,63 @@
+{
+    "imdbID": "tt10986410",
+    "tmdbID": "97546",
+    "imdbRating": 88,
+    "imdbVoteCount": 179820,
+    "tmdbRating": 85,
+    "backdropPath": "/wImNeqxKsqmJ5OBw8j3I37GNFN3.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/wImNeqxKsqmJ5OBw8j3I37GNFN3.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/wImNeqxKsqmJ5OBw8j3I37GNFN3.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/wImNeqxKsqmJ5OBw8j3I37GNFN3.jpg",
+        "original": "https://image.tmdb.org/t/p/original/wImNeqxKsqmJ5OBw8j3I37GNFN3.jpg"
+    },
+    "originalTitle": "Ted Lasso",
+    "genres": [
+        35,
+        5
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2020,
+    "firstAirYear": 2020,
+    "lastAirYear": 2021,
+    "episodeRuntimes": [
+        30
+    ],
+    "cast": [
+        "Jason Sudeikis",
+        "Hannah Waddingham",
+        "Juno Temple",
+        "Jeremy Swift",
+        "Phil Dunster",
+        "Brett Goldstein",
+        "Brendan Hunt"
+    ],
+    "significants": [
+        "Jason Sudeikis",
+        "Brendan Hunt",
+        "Bill Lawrence",
+        "Joe Kelly"
+    ],
+    "title": "Ted Lasso",
+    "overview": "Ted Lasso, an American football coach, moves to England when he\u2019s hired to manage a soccer team\u2014despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
+    "video": "3u7EIiohs6U",
+    "posterPath": "/39rtdG2QoPIOISmS6KNdJDes8vy.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/39rtdG2QoPIOISmS6KNdJDes8vy.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/39rtdG2QoPIOISmS6KNdJDes8vy.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/39rtdG2QoPIOISmS6KNdJDes8vy.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/39rtdG2QoPIOISmS6KNdJDes8vy.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/39rtdG2QoPIOISmS6KNdJDes8vy.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/39rtdG2QoPIOISmS6KNdJDes8vy.jpg",
+        "original": "https://image.tmdb.org/t/p/original/39rtdG2QoPIOISmS6KNdJDes8vy.jpg"
+    },
+    "seasons": 2,
+    "episodes": 22,
+    "age": 13,
+    "status": 1,
+    "tagline": "Kindness makes a comeback.",
+    "streamingInfo": {},
+    "originalLanguage": "en"
+}

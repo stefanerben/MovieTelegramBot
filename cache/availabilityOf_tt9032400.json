@@ -1,0 +1,62 @@
+{
+    "imdbID": "tt9032400",
+    "tmdbID": "524434",
+    "imdbRating": 63,
+    "imdbVoteCount": 300931,
+    "tmdbRating": 71,
+    "backdropPath": "/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg",
+        "original": "https://image.tmdb.org/t/p/original/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg"
+    },
+    "originalTitle": "Eternals",
+    "genres": [
+        28,
+        12,
+        14
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2021,
+    "runtime": 156,
+    "cast": [
+        "Gemma Chan",
+        "Richard Madden",
+        "Angelina Jolie",
+        "Kumail Nanjiani",
+        "Barry Keoghan",
+        "Lauren Ridloff",
+        "Lia McHugh"
+    ],
+    "significants": [
+        "Chlo\u00e9 Zhao"
+    ],
+    "title": "Eternals",
+    "overview": "The Eternals are a team of ancient aliens who have been living on Earth in secret for thousands of years. When an unexpected tragedy forces them out of the shadows, they are forced to reunite against mankind\u2019s most ancient enemy, the Deviants.",
+    "tagline": "In the beginning...",
+    "video": "x_me3xsvDgk",
+    "posterPath": "/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg",
+        "original": "https://image.tmdb.org/t/p/original/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg"
+    },
+    "age": 12,
+    "streamingInfo": {
+        "disney": {
+            "at": {
+                "link": "https://www.disneyplus.com/movies/-/5cmhJAtkt6Jk",
+                "added": 1652656806,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}

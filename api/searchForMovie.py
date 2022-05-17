@@ -36,8 +36,11 @@ def getMovieInfoFor(searchString):
     response = loadJson(response.text)
     if response['Response'] == 'True':
         result = response['Search']
+        result = [entry for entry in result if entry['Type'] == 'movie']
     else:
         return False # Movie not found
+
+    
 
     # Caching stuff
     #if config.DEBUG and not doesCachedFileExist('movieInfo.json'):

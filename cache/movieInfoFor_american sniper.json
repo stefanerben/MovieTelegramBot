@@ -1,0 +1,30 @@
+[
+    {
+        "Title": "American Sniper",
+        "Year": "2014",
+        "imdbID": "tt2179136",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTkxNzI3ODI4Nl5BMl5BanBnXkFtZTgwMjkwMjY4MjE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "One Soldier's Story: The Journey of American Sniper",
+        "Year": "2015",
+        "imdbID": "tt4781700",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMGQ4MDQ2NjQtZTg1ZC00YTc2LWJiMDgtZGE3ZDA2MTRkNzlmXkEyXkFqcGdeQXVyNTcwMjMzMzU@._V1_SX300.jpg"
+    },
+    {
+        "Title": "The Real American Sniper",
+        "Year": "2015",
+        "imdbID": "tt4476906",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZTYxZjU2MzUtOWMxOC00M2ExLTljZDEtZTZiOWFiZDk0MWE1XkEyXkFqcGdeQXVyNzcxMDMzODM@._V1_SX300.jpg"
+    },
+    {
+        "Title": "The Making of American Sniper",
+        "Year": "2015",
+        "imdbID": "tt5168938",
+        "Type": "movie",
+        "Poster": "N/A"
+    }
+]

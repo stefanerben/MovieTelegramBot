@@ -1,0 +1,45 @@
+{
+    "imdbID": "tt10413374",
+    "tmdbID": "653820",
+    "imdbRating": 41,
+    "imdbVoteCount": 227,
+    "tmdbRating": 50,
+    "backdropPath": "",
+    "backdropURLs": {},
+    "originalTitle": "Rot",
+    "genres": [
+        27
+    ],
+    "countries": [],
+    "year": 2019,
+    "runtime": 92,
+    "cast": [
+        "Kris Alexandrea",
+        "Johnny Kostrey",
+        "Daniel Amerman",
+        "McKale Jude Bingham",
+        "Johnny Uhorchuk",
+        "Adam Burch",
+        "Eileen Dietz"
+    ],
+    "significants": [
+        "Andrew Merrill"
+    ],
+    "title": "Rot",
+    "overview": "A grad student breaks up with her boyfriend to focus on her thesis, not realizing something has infected him and that he's going to wreak havoc on her life.",
+    "tagline": "",
+    "video": "1mdiZ2bpWSM",
+    "posterPath": "/bUeYVMOuoekKP3aO6jYwOeUJEyh.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/bUeYVMOuoekKP3aO6jYwOeUJEyh.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/bUeYVMOuoekKP3aO6jYwOeUJEyh.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/bUeYVMOuoekKP3aO6jYwOeUJEyh.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/bUeYVMOuoekKP3aO6jYwOeUJEyh.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/bUeYVMOuoekKP3aO6jYwOeUJEyh.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/bUeYVMOuoekKP3aO6jYwOeUJEyh.jpg",
+        "original": "https://image.tmdb.org/t/p/original/bUeYVMOuoekKP3aO6jYwOeUJEyh.jpg"
+    },
+    "age": 18,
+    "streamingInfo": {},
+    "originalLanguage": "en"
+}

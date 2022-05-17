@@ -1,0 +1,61 @@
+{
+    "imdbID": "tt2179136",
+    "tmdbID": "190859",
+    "imdbRating": 73,
+    "imdbVoteCount": 474665,
+    "tmdbRating": 74,
+    "backdropPath": "/smAnf46gZL1jXuP9nZvkM3Uynav.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/smAnf46gZL1jXuP9nZvkM3Uynav.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/smAnf46gZL1jXuP9nZvkM3Uynav.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/smAnf46gZL1jXuP9nZvkM3Uynav.jpg",
+        "original": "https://image.tmdb.org/t/p/original/smAnf46gZL1jXuP9nZvkM3Uynav.jpg"
+    },
+    "originalTitle": "American Sniper",
+    "genres": [
+        28,
+        1
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2014,
+    "runtime": 133,
+    "cast": [
+        "Bradley Cooper",
+        "Sienna Miller",
+        "Kyle Gallner",
+        "Cole Konis",
+        "Ben Reed",
+        "Elise Robertson",
+        "Keir O'Donnell"
+    ],
+    "significants": [
+        "Clint Eastwood"
+    ],
+    "title": "American Sniper",
+    "overview": "U.S. Navy SEAL Chris Kyle takes his sole mission\u2014protect his comrades\u2014to heart and becomes one of the most lethal snipers in American history. His pinpoint accuracy not only saves countless lives but also makes him a prime target of insurgents. Despite grave danger and his struggle to be a good husband and father to his family back in the States, Kyle serves four tours of duty in Iraq. However, when he finally returns home, he finds that he cannot leave the war behind.",
+    "tagline": "The most lethal sniper in U.S. history.",
+    "video": "5bP1f_1o-zo",
+    "posterPath": "/i1U46OwMc6vlm7OoSUKfqUH615e.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/i1U46OwMc6vlm7OoSUKfqUH615e.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/i1U46OwMc6vlm7OoSUKfqUH615e.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/i1U46OwMc6vlm7OoSUKfqUH615e.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/i1U46OwMc6vlm7OoSUKfqUH615e.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/i1U46OwMc6vlm7OoSUKfqUH615e.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/i1U46OwMc6vlm7OoSUKfqUH615e.jpg",
+        "original": "https://image.tmdb.org/t/p/original/i1U46OwMc6vlm7OoSUKfqUH615e.jpg"
+    },
+    "age": 15,
+    "streamingInfo": {
+        "netflix": {
+            "at": {
+                "link": "https://www.netflix.com/title/80013871/",
+                "added": 1607859432,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}

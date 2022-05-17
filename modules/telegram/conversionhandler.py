@@ -33,8 +33,8 @@ def findMovies(update, context):
     keyboard = []
     
     # get top 3 movies
-    for ele in movies[:2]:
-      keyboard.append([InlineKeyboardButton(ele["Title"], callback_data=ele["imdbID"])])
+    for ele in movies[:5]:
+      keyboard.append([InlineKeyboardButton(ele["Title"] + " (" + str(ele['Year']) + ")", callback_data=ele["imdbID"])])
     keyboard.append([InlineKeyboardButton("Cancel", callback_data="cancel")])
 
 

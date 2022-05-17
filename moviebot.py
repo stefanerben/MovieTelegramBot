@@ -156,10 +156,10 @@ def getMovieInformation(update, context, imbd_id=""):
     
     name = data['originalTitle'] # The Lord of the Rings: The Fellowship of the Ring
     imdb_rating = data['imdbRating'] # 88 (int)
-    backdrop_url = data['backdropURLs']['original'] # https://image.tmdb.org/t/p/original/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg
+    # backdrop_url = data['backdropURLs']['original'] # https://image.tmdb.org/t/p/original/vRQnzOn4HjIMX4LBq9nHhFXbsSu.jpg
     countries = data['countries'] # ["NZ", "US"]
     year = data['year'] # 2001 (int)
-    runtime = data['runtime'] # 179 (int)
+    # runtime = data['runtime'] # 179 (int)
     cast = data['cast'] # ["Elijah Wood", "Ian McKellen", "Liv Tyler", "Viggo Mortensen", "Sean Bean", "Sean Astin", "Cate Blanchett"]
     overview = data['overview'] # "Young hobbit Frodo Baggins, after inheriting a mysterious ring from his uncle Bilbo, must leave his home in order to keep it from falling into the hands of its evil creator. Along the way, a fellowship is formed to protect the ringbearer and make sure that the ring arrives at its final destination: Mt. Doom, the only place where it can be destroyed."
     tagline = data['tagline'] # "One ring to rule them all"

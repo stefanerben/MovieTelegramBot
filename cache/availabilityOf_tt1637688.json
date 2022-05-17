@@ -1,0 +1,69 @@
+{
+    "imdbID": "tt1637688",
+    "tmdbID": "49530",
+    "imdbRating": 67,
+    "imdbVoteCount": 402751,
+    "tmdbRating": 70,
+    "backdropPath": "/kx2YVkcsnTnmF9XGTAj2NqEcHFG.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/kx2YVkcsnTnmF9XGTAj2NqEcHFG.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/kx2YVkcsnTnmF9XGTAj2NqEcHFG.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/kx2YVkcsnTnmF9XGTAj2NqEcHFG.jpg",
+        "original": "https://image.tmdb.org/t/p/original/kx2YVkcsnTnmF9XGTAj2NqEcHFG.jpg"
+    },
+    "originalTitle": "In Time",
+    "genres": [
+        28,
+        878,
+        53
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2011,
+    "runtime": 109,
+    "cast": [
+        "Justin Timberlake",
+        "Amanda Seyfried",
+        "Cillian Murphy",
+        "Olivia Wilde",
+        "Alex Pettyfer",
+        "Johnny Galecki",
+        "Matt Bomer"
+    ],
+    "significants": [
+        "Andrew Niccol"
+    ],
+    "title": "In Time",
+    "overview": "In the not-too-distant future the aging gene has been switched off. To avoid overpopulation, time has become the currency and the way people pay for luxuries and necessities. The rich can live forever, while the rest try to negotiate for their immortality. A poor young man who comes into a fortune of time, though too late to help his mother from dying. He ends up on the run from a corrupt police force known as 'time keepers'.",
+    "tagline": "Time Is Power",
+    "video": "xhYUaR5QiUs",
+    "posterPath": "/3Mwj2sIONQckOZP3YwsUXF7U5I4.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/3Mwj2sIONQckOZP3YwsUXF7U5I4.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/3Mwj2sIONQckOZP3YwsUXF7U5I4.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/3Mwj2sIONQckOZP3YwsUXF7U5I4.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/3Mwj2sIONQckOZP3YwsUXF7U5I4.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/3Mwj2sIONQckOZP3YwsUXF7U5I4.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/3Mwj2sIONQckOZP3YwsUXF7U5I4.jpg",
+        "original": "https://image.tmdb.org/t/p/original/3Mwj2sIONQckOZP3YwsUXF7U5I4.jpg"
+    },
+    "age": 11,
+    "streamingInfo": {
+        "netflix": {
+            "at": {
+                "link": "https://www.netflix.com/title/70202129/",
+                "added": 1651884127,
+                "leaving": 0
+            }
+        },
+        "prime": {
+            "at": {
+                "link": "https://www.amazon.de/gp/video/detail/0GM6BBIQ6CFLHNGFS2400S8CW8/",
+                "added": 1636967816,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}
