@@ -1,0 +1,63 @@
+{
+    "imdbID": "tt0126029",
+    "tmdbID": "808",
+    "imdbRating": 79,
+    "imdbVoteCount": 659842,
+    "tmdbRating": 77,
+    "backdropPath": "/2l5UHZBcp9cx1PwKLdisJ0gV9jB.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/2l5UHZBcp9cx1PwKLdisJ0gV9jB.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/2l5UHZBcp9cx1PwKLdisJ0gV9jB.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/2l5UHZBcp9cx1PwKLdisJ0gV9jB.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2l5UHZBcp9cx1PwKLdisJ0gV9jB.jpg"
+    },
+    "originalTitle": "Shrek",
+    "genres": [
+        16,
+        12,
+        35
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2001,
+    "runtime": 90,
+    "cast": [
+        "Mike Myers",
+        "Eddie Murphy",
+        "Cameron Diaz",
+        "John Lithgow",
+        "Vincent Cassel",
+        "Peter Dennis",
+        "Clive Pearse"
+    ],
+    "significants": [
+        "Andrew Adamson",
+        "Vicky Jenson"
+    ],
+    "title": "Shrek",
+    "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
+    "tagline": "The greatest fairy tale never told.",
+    "video": "CwXOrWvPBPk",
+    "posterPath": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+        "original": "https://image.tmdb.org/t/p/original/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg"
+    },
+    "age": 4,
+    "streamingInfo": {
+        "netflix": {
+            "at": {
+                "link": "https://www.netflix.com/title/60020686/",
+                "added": 1652479310,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}

@@ -1,0 +1,64 @@
+{
+    "imdbID": "tt0298148",
+    "tmdbID": "809",
+    "imdbRating": 73,
+    "imdbVoteCount": 452148,
+    "tmdbRating": 72,
+    "backdropPath": "/g1EsYgp8GbdztpodCCa2n7xxc5S.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/g1EsYgp8GbdztpodCCa2n7xxc5S.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/g1EsYgp8GbdztpodCCa2n7xxc5S.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/g1EsYgp8GbdztpodCCa2n7xxc5S.jpg",
+        "original": "https://image.tmdb.org/t/p/original/g1EsYgp8GbdztpodCCa2n7xxc5S.jpg"
+    },
+    "originalTitle": "Shrek 2",
+    "genres": [
+        16,
+        12,
+        35
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2004,
+    "runtime": 93,
+    "cast": [
+        "Mike Myers",
+        "Eddie Murphy",
+        "Cameron Diaz",
+        "Julie Andrews",
+        "Antonio Banderas",
+        "John Cleese",
+        "Rupert Everett"
+    ],
+    "significants": [
+        "Andrew Adamson",
+        "Kelly Asbury",
+        "Conrad Vernon"
+    ],
+    "title": "Shrek 2",
+    "overview": "Shrek, Fiona and Donkey set off to Far, Far Away to meet Fiona's mother and father. But not everyone is happy. Shrek and the King find it hard to get along, and there's tension in the marriage. The fairy godmother discovers that Shrek has married Fiona instead of her Son Prince Charming and sets about destroying their marriage.",
+    "tagline": "Once upon another time...",
+    "video": "xBgSfhp5Fxo",
+    "posterPath": "/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg",
+        "original": "https://image.tmdb.org/t/p/original/2yYP0PQjG8zVqturh1BAqu2Tixl.jpg"
+    },
+    "age": 4,
+    "streamingInfo": {
+        "netflix": {
+            "at": {
+                "link": "https://www.netflix.com/title/60034572/",
+                "added": 1617404507,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}

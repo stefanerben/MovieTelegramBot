@@ -1,0 +1,62 @@
+{
+    "imdbID": "tt0413267",
+    "tmdbID": "810",
+    "imdbRating": 61,
+    "imdbVoteCount": 300852,
+    "tmdbRating": 63,
+    "backdropPath": "/wxkXCVGw61kbJAfP9SkxoETD0uz.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/wxkXCVGw61kbJAfP9SkxoETD0uz.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/wxkXCVGw61kbJAfP9SkxoETD0uz.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/wxkXCVGw61kbJAfP9SkxoETD0uz.jpg",
+        "original": "https://image.tmdb.org/t/p/original/wxkXCVGw61kbJAfP9SkxoETD0uz.jpg"
+    },
+    "originalTitle": "Shrek the Third",
+    "genres": [
+        16,
+        12,
+        35
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2007,
+    "runtime": 93,
+    "cast": [
+        "Mike Myers",
+        "Eddie Murphy",
+        "Cameron Diaz",
+        "Antonio Banderas",
+        "Julie Andrews",
+        "John Cleese",
+        "Rupert Everett"
+    ],
+    "significants": [
+        "Chris Miller"
+    ],
+    "title": "Shrek the Third",
+    "overview": "The King of Far Far Away has died and Shrek and Fiona are to become King & Queen. However, Shrek wants to return to his cozy swamp and live in peace and quiet, so when he finds out there is another heir to the throne, they set off to bring him back to rule the kingdom.",
+    "tagline": "He\u2019s in for the Royal Treatment.",
+    "video": "_MoIr7811Bs",
+    "posterPath": "/1V5pspgnFCXXWd9DddHBVIF2275.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/1V5pspgnFCXXWd9DddHBVIF2275.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/1V5pspgnFCXXWd9DddHBVIF2275.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/1V5pspgnFCXXWd9DddHBVIF2275.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/1V5pspgnFCXXWd9DddHBVIF2275.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/1V5pspgnFCXXWd9DddHBVIF2275.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/1V5pspgnFCXXWd9DddHBVIF2275.jpg",
+        "original": "https://image.tmdb.org/t/p/original/1V5pspgnFCXXWd9DddHBVIF2275.jpg"
+    },
+    "age": 3,
+    "streamingInfo": {
+        "netflix": {
+            "at": {
+                "link": "https://www.netflix.com/title/70047102/",
+                "added": 1624556217,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}

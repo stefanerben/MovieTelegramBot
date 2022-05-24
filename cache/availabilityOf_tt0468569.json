@@ -1,0 +1,70 @@
+{
+    "imdbID": "tt0468569",
+    "tmdbID": "155",
+    "imdbRating": 90,
+    "imdbVoteCount": 2557538,
+    "tmdbRating": 85,
+    "backdropPath": "/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg",
+        "original": "https://image.tmdb.org/t/p/original/nMKdUUepR0i5zn0y1T4CsSB5chy.jpg"
+    },
+    "originalTitle": "The Dark Knight",
+    "genres": [
+        28,
+        80,
+        18
+    ],
+    "countries": [
+        "GB",
+        "US"
+    ],
+    "year": 2008,
+    "runtime": 152,
+    "cast": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Michael Caine",
+        "Gary Oldman",
+        "Aaron Eckhart",
+        "Maggie Gyllenhaal",
+        "Morgan Freeman"
+    ],
+    "significants": [
+        "Christopher Nolan"
+    ],
+    "title": "The Dark Knight",
+    "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+    "tagline": "Welcome to a world without rules.",
+    "video": "kmJLuwP3MbY",
+    "posterPath": "/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "original": "https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+    },
+    "age": 12,
+    "streamingInfo": {
+        "netflix": {
+            "at": {
+                "link": "https://www.netflix.com/title/70079583/",
+                "added": 1624554210,
+                "leaving": 0
+            }
+        },
+        "prime": {
+            "at": {
+                "link": "https://www.amazon.de/gp/video/detail/0S3N829VZYMF8TK445VGQ26THH/",
+                "added": 1652948774,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import random, config, traceback
+from api.posterImage import getPosterImage
 from api.streamingAvailability import getStreamingAvailabilityFor
 from logging import basicConfig, INFO, getLogger
 
@@ -186,8 +187,22 @@ def getMovieInformation(update, context, imbd_id=""):
         keyboard.append([InlineKeyboardButton(service['name'], url=service['link'])])
     keyboard.append([InlineKeyboardButton("Cancel", callback_data="cancel")])
 
+    posterData = {
+        "posterUrl" : poster_url,
+        "name" : name,
+        "availableAt" : [
+            [x['name'] for x in streaming_services],
+        ]
+    }
+
+    print(posterData)
+
+
+    getPosterImage(posterData)
+
     reply_markup = InlineKeyboardMarkup(keyboard)
     context.bot.send_message(chat_id=update.effective_chat.id, text="Have fun streaming:", reply_markup=reply_markup)
+    context.bot.send_photo(chat_id=update.effective_chat.id, photo=open('image.png', 'rb'))
 
     
     return 

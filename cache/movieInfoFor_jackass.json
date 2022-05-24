@@ -1,0 +1,65 @@
+[
+    {
+        "Title": "Jackass Presents: Bad Grandpa",
+        "Year": "2013",
+        "imdbID": "tt3063516",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTYyMzk0MjY5NV5BMl5BanBnXkFtZTgwODI1MzIxMDE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Jackass: The Movie",
+        "Year": "2002",
+        "imdbID": "tt0322802",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTgwMmU0YzktOGNhNi00MDcyLTg1OGEtZGQwM2RlMTAyYzhlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Jackass Number Two",
+        "Year": "2006",
+        "imdbID": "tt0493430",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzgzNDYyOTcxNl5BMl5BanBnXkFtZTcwODczNzUzMQ@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Jackass 3D",
+        "Year": "2010",
+        "imdbID": "tt1116184",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjI3NTQ1NTE4OV5BMl5BanBnXkFtZTcwMzEzMzA3NA@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Jackass Forever",
+        "Year": "2022",
+        "imdbID": "tt11466222",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNTdmMDNmYmItOWFmNC00YzdkLWIyZWMtMGRlMTQyZDZmNDU0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Jackass 2.5",
+        "Year": "2007",
+        "imdbID": "tt1117523",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BODg4MTExNTY3M15BMl5BanBnXkFtZTcwMDEwMzU1MQ@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Jackass 3.5",
+        "Year": "2011",
+        "imdbID": "tt1753968",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTkxZjlhYzAtNDExNy00NjQ4LWJiNGEtMTk5YzhhYjUwMDVhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Jackass: Volume Two",
+        "Year": "2004",
+        "imdbID": "tt0401535",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BODE0ZTlhMTctODI4Ny00ZGM1LTg0ZTQtYTQ5Njk3N2M2YTQxXkEyXkFqcGdeQXVyMTIxMDUyOTI@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Jackass: The Lost Tapes",
+        "Year": "2009",
+        "imdbID": "tt1600413",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZDEwYWM4NTUtZjkzYS00MzE1LThmOGEtMDc0OWQ3ZjIzMTgzXkEyXkFqcGdeQXVyNjQ5MjQxNjY@._V1_SX300.jpg"
+    }
+]
