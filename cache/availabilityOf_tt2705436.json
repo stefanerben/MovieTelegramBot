@@ -1,0 +1,52 @@
+{
+    "imdbID": "tt2705436",
+    "tmdbID": "112679",
+    "imdbRating": 79,
+    "imdbVoteCount": 1034,
+    "tmdbRating": 74,
+    "backdropPath": "/uZRQgumqHdVqnaflAsJqu8NzjEA.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/uZRQgumqHdVqnaflAsJqu8NzjEA.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/uZRQgumqHdVqnaflAsJqu8NzjEA.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/uZRQgumqHdVqnaflAsJqu8NzjEA.jpg",
+        "original": "https://image.tmdb.org/t/p/original/uZRQgumqHdVqnaflAsJqu8NzjEA.jpg"
+    },
+    "originalTitle": "Italian Spiderman",
+    "genres": [
+        6,
+        28,
+        35
+    ],
+    "countries": [
+        "AU"
+    ],
+    "year": 2007,
+    "runtime": 40,
+    "cast": [
+        "David Ashby",
+        "Chris Asimos",
+        "Anna Cashman",
+        "Michael Crisci",
+        "Matt Crook"
+    ],
+    "significants": [
+        "Dario Russo"
+    ],
+    "title": "Italian Spiderman",
+    "overview": "This is an Australian-made parody of Italian action\u2013adventure films of the 60s and 70s. and foreign movies that misappropriated popular American superheroes such as the Japanese TV series \u201cSpider-Man\u201d. (It should be noted that the Japanese Spider-Man was officially sanctioned by Marvel and is considered canon in the Marvel universe) This is an Italian take on the comic book superhero Spider-Man.",
+    "tagline": "Actione Terrore Suspenso SPIDER!",
+    "video": "UhHhXukovMU",
+    "posterPath": "/6KcTa6doU5eJRfAMiwzUasHvqdu.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/6KcTa6doU5eJRfAMiwzUasHvqdu.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/6KcTa6doU5eJRfAMiwzUasHvqdu.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/6KcTa6doU5eJRfAMiwzUasHvqdu.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/6KcTa6doU5eJRfAMiwzUasHvqdu.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/6KcTa6doU5eJRfAMiwzUasHvqdu.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/6KcTa6doU5eJRfAMiwzUasHvqdu.jpg",
+        "original": "https://image.tmdb.org/t/p/original/6KcTa6doU5eJRfAMiwzUasHvqdu.jpg"
+    },
+    "age": -1,
+    "streamingInfo": {},
+    "originalLanguage": "it"
+}

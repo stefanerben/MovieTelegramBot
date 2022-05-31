@@ -1,1 +1,4 @@
+requests==2.27.1
+requests-toolbelt==0.9.1
+Pillow==9.0.1
 python-telegram-bot==13.11
