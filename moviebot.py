@@ -144,8 +144,8 @@ def getMovieInformation(update, context, imbd_id=""):
     if imbd_id == "":
         # TODO: add more ids to improve the results
         
-        # get random movie id
-        movie_ids = ["tt0111161", "tt0068646", "tt0167260", "tt0468569"]
+        # get random movie id (top 50 movies of Germany)
+        movie_ids = ["tt0111161","tt0468569","tt0108052","tt0099685","tt0114369","tt0102926","tt0245429","tt0120689","tt0816692","tt010306","tt005421","tt017249","tt040788","tt167543","tt007874","tt020914","tt008297","tt185372","tt040509","tt011969","tt134583","tt009060","tt531151","tt011257","tt098626","tt036174","tt507435","tt007185","tt037278","tt696669","tt034714","tt026897","tt099384","tt009628","tt113088","tt012038","tt472943","tt810819","tt226799","tt211953","tt011871","tt026446","tt139221","tt089276","tt331534","tt007947","tt008754","tt040550","tt443021","tt485726"]
         imbd_id = random.choice(movie_ids)
 
     
