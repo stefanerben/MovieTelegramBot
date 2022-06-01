@@ -1,5 +1,3 @@
-
-
 import requests
 import base64
 
@@ -7,11 +5,8 @@ from PIL import Image
 from io import BytesIO
 
 
-
 def getPosterImage(posterData):
-
-    url = 'http://localhost:3000/poster'
-
+    url = 'http://cloud.mattes.cc:3000/poster'
     img_data = requests.post(url, data = posterData)
 
     f = open("sample.txt", "wb")

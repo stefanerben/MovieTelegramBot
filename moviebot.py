@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import random, config, traceback
+from time import sleep
 from api.posterImage import getPosterImage
 from api.streamingAvailability import getStreamingAvailabilityFor
 from logging import basicConfig, INFO, getLogger
@@ -12,7 +13,6 @@ from telegram.ext import CallbackQueryHandler, CommandHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext.conversationhandler import ConversationHandler
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-
 
 basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=INFO)
@@ -25,6 +25,8 @@ if config.DEBUG:
     print("####### STARTING IN DEBUG MODE #######")
 
 TOKEN = '5363080082:AAHltCun16zDne1St_7dGuaJTMIoQPYu0_E' # @movie_syi_bot
+
+
 
 
 """##########################################################"""
@@ -147,13 +149,18 @@ def getMovieInformation(update, context, imbd_id=""):
         # get random movie id (top 50 movies of Germany)
         movie_ids = ["tt0111161","tt0468569","tt0108052","tt0099685","tt0114369","tt0102926","tt0245429","tt0120689","tt0816692","tt010306","tt005421","tt017249","tt040788","tt167543","tt007874","tt020914","tt008297","tt185372","tt040509","tt011969","tt134583","tt009060","tt531151","tt011257","tt098626","tt036174","tt507435","tt007185","tt037278","tt696669","tt034714","tt026897","tt099384","tt009628","tt113088","tt012038","tt472943","tt810819","tt226799","tt211953","tt011871","tt026446","tt139221","tt089276","tt331534","tt007947","tt008754","tt040550","tt443021","tt485726"]
         imbd_id = random.choice(movie_ids)
+        data = getStreamingAvailabilityFor(imbd_id)
 
-    
-    print("getMovieInformation")
+        while not data:
+            print("not found for", imbd_id)
+            imbd_id = random.choice(movie_ids)
+            data = getStreamingAvailabilityFor(imbd_id)
 
-    
-    # TODO: get data from api via 'imbd_id'
-    data = getStreamingAvailabilityFor(imbd_id)
+            sleep(3)
+
+    else:
+        data = getStreamingAvailabilityFor(imbd_id)
+
     
     name = data['originalTitle'] # The Lord of the Rings: The Fellowship of the Ring
     imdb_rating = data['imdbRating'] # 88 (int)
@@ -167,15 +174,8 @@ def getMovieInformation(update, context, imbd_id=""):
     poster_url = data['posterURLs']['original'] # "https://image.tmdb.org/t/p/original/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
     streaming_info = data['streamingInfo'] # "hbo":{ "us":{ "link":"https://play.hbomax.com/page/urn:hbo:page:GXdu2ZAglVJuAuwEAADbA:type:feature", "added":1606841026, "leaving":0 }}
 
-    streaming_services = []
-    for service in streaming_info:
-        if service == 'hbo':
-            continue
-        for country in streaming_info[service]:
-            streaming_services.append({
-                "name" : service,
-                "link" : streaming_info[service][country]['link']
-            })
+    streaming_services = getStreamingServices(streaming_info)
+    
 
     if len(streaming_services) == 0:
         context.bot.send_message(chat_id=update.effective_chat.id, text="Sorry, this movie is not available for streaming in your country!")
@@ -206,6 +206,17 @@ def getMovieInformation(update, context, imbd_id=""):
 
     
     return 
+
+def getStreamingServices(streaming_info):
+    streaming_services = []
+    for service in streaming_info:
+        if service == 'hbo':
+            continue
+        for country in streaming_info[service]:
+            streaming_services.append({
+                "name" : service,
+                "link" : streaming_info[service][country]['link']
+            })
 
 def error_callback(update, context):
     message = 'Update ' + str(update) + ' caused error ' + str(context.error)

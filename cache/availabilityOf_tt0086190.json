@@ -1,0 +1,62 @@
+{
+    "imdbID": "tt0086190",
+    "tmdbID": "1892",
+    "imdbRating": 83,
+    "imdbVoteCount": 1024104,
+    "tmdbRating": 79,
+    "backdropPath": "/iP2tEA2A77qhbhRfcFkiD6WFOqH.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/iP2tEA2A77qhbhRfcFkiD6WFOqH.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/iP2tEA2A77qhbhRfcFkiD6WFOqH.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/iP2tEA2A77qhbhRfcFkiD6WFOqH.jpg",
+        "original": "https://image.tmdb.org/t/p/original/iP2tEA2A77qhbhRfcFkiD6WFOqH.jpg"
+    },
+    "originalTitle": "Return of the Jedi",
+    "genres": [
+        28,
+        12,
+        14
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 1983,
+    "runtime": 135,
+    "cast": [
+        "Mark Hamill",
+        "Harrison Ford",
+        "Carrie Fisher",
+        "Billy Dee Williams",
+        "Anthony Daniels",
+        "Peter Mayhew",
+        "Sebastian Shaw"
+    ],
+    "significants": [
+        "Richard Marquand"
+    ],
+    "title": "Return of the Jedi",
+    "overview": "Luke Skywalker leads a mission to rescue his friend Han Solo from the clutches of Jabba the Hutt, while the Emperor seeks to destroy the Rebellion once and for all with a second dreaded Death Star.",
+    "tagline": "The Empire Falls...",
+    "video": "1x4OmSgR714",
+    "posterPath": "/1kAbMLKVJz7LGjs8nnp259tffry.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/1kAbMLKVJz7LGjs8nnp259tffry.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/1kAbMLKVJz7LGjs8nnp259tffry.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/1kAbMLKVJz7LGjs8nnp259tffry.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/1kAbMLKVJz7LGjs8nnp259tffry.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/1kAbMLKVJz7LGjs8nnp259tffry.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/1kAbMLKVJz7LGjs8nnp259tffry.jpg",
+        "original": "https://image.tmdb.org/t/p/original/1kAbMLKVJz7LGjs8nnp259tffry.jpg"
+    },
+    "age": 6,
+    "streamingInfo": {
+        "disney": {
+            "at": {
+                "link": "https://www.disneyplus.com/movies/-/6QGKo5mjDBS8",
+                "added": 1635859711,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}
