@@ -1,0 +1,37 @@
+[
+    {
+        "Title": "Captain America: Civil War",
+        "Year": "2016",
+        "imdbID": "tt3498820",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "The Second Civil War",
+        "Year": "1997",
+        "imdbID": "tt0120086",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZGRjNWMxZDgtNDczYS00YzA5LWI1ZTMtOTExYmI0OWIwMjgzXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "The Civil War on Drugs",
+        "Year": "2011",
+        "imdbID": "tt2316000",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYmE4OGRhOTMtYjQ3Zi00OGVhLTk3MmEtZWJhYmY2YmM2MzYyXkEyXkFqcGdeQXVyMTI5NTQ0NzIy._V1_SX300.jpg"
+    },
+    {
+        "Title": "Love in the Time of Civil War",
+        "Year": "2014",
+        "imdbID": "tt3922958",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTgxMTY5NTk1MV5BMl5BanBnXkFtZTgwMDg4MTk1NjE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Civil War (or, Who Do We Think We Are)",
+        "Year": "2021",
+        "imdbID": "tt13622108",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYmVlMzJhMTctMGRkMC00ZDlkLTg5MDQtODk3MzE1NzEwZDRmXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg"
+    }
+]

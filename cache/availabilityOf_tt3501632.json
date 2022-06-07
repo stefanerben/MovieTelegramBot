@@ -1,0 +1,61 @@
+{
+    "imdbID": "tt3501632",
+    "tmdbID": "284053",
+    "imdbRating": 79,
+    "imdbVoteCount": 703509,
+    "tmdbRating": 76,
+    "backdropPath": "/6G2fLCVm9fiLyHvBrccq6GSe2ih.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/6G2fLCVm9fiLyHvBrccq6GSe2ih.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/6G2fLCVm9fiLyHvBrccq6GSe2ih.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/6G2fLCVm9fiLyHvBrccq6GSe2ih.jpg",
+        "original": "https://image.tmdb.org/t/p/original/6G2fLCVm9fiLyHvBrccq6GSe2ih.jpg"
+    },
+    "originalTitle": "Thor: Ragnarok",
+    "genres": [
+        28,
+        12
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2017,
+    "runtime": 131,
+    "cast": [
+        "Chris Hemsworth",
+        "Tom Hiddleston",
+        "Cate Blanchett",
+        "Tessa Thompson",
+        "Jeff Goldblum",
+        "Idris Elba",
+        "Karl Urban"
+    ],
+    "significants": [
+        "Taika Waititi"
+    ],
+    "title": "Thor: Ragnarok",
+    "overview": "Thor is imprisoned on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the destruction of his home-world and the end of Asgardian civilization, at the hands of a powerful new threat, the ruthless Hela.",
+    "tagline": "No Hammer. No Problem.",
+    "video": "ue80QwXMRHg",
+    "posterPath": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
+        "original": "https://image.tmdb.org/t/p/original/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg"
+    },
+    "age": 11,
+    "streamingInfo": {
+        "disney": {
+            "at": {
+                "link": "https://www.disneyplus.com/movies/-/3XqAT8UV8ojS",
+                "added": 1607855731,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}

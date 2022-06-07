@@ -1,6 +1,5 @@
-import requests
-import base64
 
+import requests, base64
 from PIL import Image
 from io import BytesIO
 
@@ -15,12 +14,7 @@ def getPosterImage(posterData):
 
     f = open("sample.txt", "r").read()
 
-    img_data = str(f).replace("data:image/png;base64,", "")
-
+    img_data = str(f).replace("data:image/png;base64,", "").replace('<img src="', '').replace('" />', '')
 
     img = Image.open(BytesIO(base64.b64decode(img_data)))
-    #return img
     img.save('image.png', 'PNG')
-
-
-

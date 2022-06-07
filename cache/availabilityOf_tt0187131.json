@@ -1,0 +1,48 @@
+{
+    "imdbID": "tt0187131",
+    "tmdbID": "132769",
+    "imdbRating": 37,
+    "imdbVoteCount": 146,
+    "tmdbRating": 42,
+    "backdropPath": "",
+    "backdropURLs": {},
+    "originalTitle": "Hawkeye",
+    "genres": [
+        28,
+        80
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 1988,
+    "runtime": 88,
+    "cast": [
+        "George Chung",
+        "Chuck Jeffreys",
+        "Troy Donahue",
+        "Elizabeth Frieje",
+        "Ronnie Lott",
+        "Michelle McCormick",
+        "Hidy Ochiai"
+    ],
+    "significants": [
+        "George Chung"
+    ],
+    "title": "Hawkeye",
+    "overview": "The Strip, Las Vegas, the city that never sleeps &amp; neither do the cops. Especially Alexander \"Hawkeye\" Hawkamoto &amp; Charlie Wilson the Toughest, meanest cop team that ever kicked ... and took names. After Hawkeye's best friend is mysteriously killed by the mob, there is nothing, no one or anything that will stop Hawkeye and Wilson from finding the killers and bringing them to justice. It is war as the Mafia and the Yakuza do battle with Hawkeye and Wilson in an all out kill or be killed. It's \"48 hours\", Hong Kong style!",
+    "tagline": "Pray they won't be on your case.",
+    "video": "",
+    "posterPath": "/sM5meMPMjr6nmw9bu17Jq0zga9s.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/sM5meMPMjr6nmw9bu17Jq0zga9s.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/sM5meMPMjr6nmw9bu17Jq0zga9s.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/sM5meMPMjr6nmw9bu17Jq0zga9s.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/sM5meMPMjr6nmw9bu17Jq0zga9s.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/sM5meMPMjr6nmw9bu17Jq0zga9s.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/sM5meMPMjr6nmw9bu17Jq0zga9s.jpg",
+        "original": "https://image.tmdb.org/t/p/original/sM5meMPMjr6nmw9bu17Jq0zga9s.jpg"
+    },
+    "age": 15,
+    "streamingInfo": {},
+    "originalLanguage": "en"
+}

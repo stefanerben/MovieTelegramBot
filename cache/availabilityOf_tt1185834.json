@@ -1,0 +1,62 @@
+{
+    "imdbID": "tt1185834",
+    "tmdbID": "12180",
+    "imdbRating": 59,
+    "imdbVoteCount": 64759,
+    "tmdbRating": 61,
+    "backdropPath": "/xEdnGUc8KeZ7h0eEgSN3ERhjgL0.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/xEdnGUc8KeZ7h0eEgSN3ERhjgL0.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/xEdnGUc8KeZ7h0eEgSN3ERhjgL0.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/xEdnGUc8KeZ7h0eEgSN3ERhjgL0.jpg",
+        "original": "https://image.tmdb.org/t/p/original/xEdnGUc8KeZ7h0eEgSN3ERhjgL0.jpg"
+    },
+    "originalTitle": "Star Wars: The Clone Wars",
+    "genres": [
+        16,
+        28,
+        12
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2008,
+    "runtime": 98,
+    "cast": [
+        "Matt Lanter",
+        "Ashley Eckstein",
+        "James Arnold Taylor",
+        "Dee Bradley Baker",
+        "Tom Kane",
+        "Nika Futterman",
+        "Ian Abercrombie"
+    ],
+    "significants": [
+        "Dave Filoni"
+    ],
+    "title": "Star Wars: The Clone Wars",
+    "overview": "Set between Episode II and III, The Clone Wars is the first computer animated Star Wars film. Anakin and Obi Wan must find out who kidnapped Jabba the Hutt's son and return him safely. The Seperatists will try anything to stop them and ruin any chance of a diplomatic agreement between the Hutts and the Republic.",
+    "tagline": "",
+    "video": "hh3P3DoZZh4",
+    "posterPath": "/ywRtBu88SLAkNxD0GFib6qsFkBK.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/ywRtBu88SLAkNxD0GFib6qsFkBK.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/ywRtBu88SLAkNxD0GFib6qsFkBK.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/ywRtBu88SLAkNxD0GFib6qsFkBK.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/ywRtBu88SLAkNxD0GFib6qsFkBK.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/ywRtBu88SLAkNxD0GFib6qsFkBK.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/ywRtBu88SLAkNxD0GFib6qsFkBK.jpg",
+        "original": "https://image.tmdb.org/t/p/original/ywRtBu88SLAkNxD0GFib6qsFkBK.jpg"
+    },
+    "age": 6,
+    "streamingInfo": {
+        "disney": {
+            "at": {
+                "link": "https://www.disneyplus.com/movies/-/AVmv1ulT1nQW",
+                "added": 1635952395,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}

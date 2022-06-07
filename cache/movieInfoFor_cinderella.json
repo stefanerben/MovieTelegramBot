@@ -1,0 +1,72 @@
+[
+    {
+        "Title": "Cinderella Man",
+        "Year": "2005",
+        "imdbID": "tt0352248",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BODEyYmQxZjUtZGQ0NS00ZTAwLTkwOGQtNGY2NzEwMWE0MDc3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Cinderella",
+        "Year": "2015",
+        "imdbID": "tt1661199",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjMxODYyODEzN15BMl5BanBnXkFtZTgwMDk4OTU0MzE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Cinderella",
+        "Year": "1950",
+        "imdbID": "tt0042332",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMWE3NzMxZTYtZTUyYi00ZTMzLTg2MzEtZjg0NGM3ZDJjZDg2XkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "A Cinderella Story",
+        "Year": "2004",
+        "imdbID": "tt0356470",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTA1NDI0OTkwNDNeQTJeQWpwZ15BbWU3MDQ3Nzc1MjE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Ever After: A Cinderella Story",
+        "Year": "1998",
+        "imdbID": "tt0120631",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BN2FhYTY5ODItOGU4OC00MTkyLTlmYTMtYjIxN2Y4MmVlMDVhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Cinderella",
+        "Year": "2021",
+        "imdbID": "tt10155932",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZTk3ZTEzNGUtZTcwYy00NmRmLWFhMGYtZjA4NWY1ZWI4MzMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Another Cinderella Story",
+        "Year": "2008",
+        "imdbID": "tt1071358",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTUwNDAzMzIxOF5BMl5BanBnXkFtZTgwNTU1NzAwNzE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "A Cinderella Story: Once Upon a Song",
+        "Year": "2011",
+        "imdbID": "tt1814614",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjAzMzQ4OTY2MF5BMl5BanBnXkFtZTcwMzAyNTI4Ng@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Cinderella 2: Dreams Come True",
+        "Year": "2001",
+        "imdbID": "tt0291082",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMWRhZTFkOTQtYmM2My00ZjM4LTk5NWYtNDk2MTQ4NjZjMjA1XkEyXkFqcGdeQXVyODU2MDg1NzU@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Cinderella 3: A Twist in Time",
+        "Year": "2007",
+        "imdbID": "tt0465940",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYmRjMzk3ZjItMDMzMS00ZDNmLThkYzctZjk4ZjhlNDM2NDBjXkEyXkFqcGdeQXVyODU2MDg1NzU@._V1_SX300.jpg"
+    }
+]

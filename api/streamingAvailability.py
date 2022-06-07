@@ -15,9 +15,10 @@ def getStreamingAvailabilityFor(imdbId):
     Poster : str --> https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg
     """
 
-    # Caching stuff
     if doesCachedFileExist('availabilityOf_' + imdbId + '.json'):
         return loadFileFromCache('availabilityOf_' + imdbId + '.json')
+
+    print("[API] StreamingAvailability Call for", imdbId)
 
     url = "https://streaming-availability.p.rapidapi.com/get/basic"
 
@@ -36,7 +37,5 @@ def getStreamingAvailabilityFor(imdbId):
     
     result = loadJson(response.text)
 
-    # Caching stuff
-    #if config.DEBUG and not doesCachedFileExist('movieInfo.json'):
     saveFileToCache('availabilityOf_' + imdbId + '.json', result)
     return result

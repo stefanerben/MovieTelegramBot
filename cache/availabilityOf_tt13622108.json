@@ -1,0 +1,39 @@
+{
+    "imdbID": "tt13622108",
+    "tmdbID": "842096",
+    "imdbRating": 70,
+    "imdbVoteCount": 155,
+    "tmdbRating": 20,
+    "backdropPath": "",
+    "backdropURLs": {},
+    "originalTitle": "Civil War (Or, Who Do We Think We Are)",
+    "genres": [
+        99
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2021,
+    "runtime": 100,
+    "cast": [],
+    "significants": [
+        "Rachel Boynton"
+    ],
+    "title": "Civil War (Or, Who Do We Think We Are)",
+    "overview": "A journey across the United States to explore the story of the Civil War of Americans from President Obama's final year in office through the present.",
+    "tagline": "",
+    "video": "f3nm9d8Jpqc",
+    "posterPath": "/c0RwJWGu2urVpeVBABchemspdeE.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/c0RwJWGu2urVpeVBABchemspdeE.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/c0RwJWGu2urVpeVBABchemspdeE.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/c0RwJWGu2urVpeVBABchemspdeE.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/c0RwJWGu2urVpeVBABchemspdeE.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/c0RwJWGu2urVpeVBABchemspdeE.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/c0RwJWGu2urVpeVBABchemspdeE.jpg",
+        "original": "https://image.tmdb.org/t/p/original/c0RwJWGu2urVpeVBABchemspdeE.jpg"
+    },
+    "age": -1,
+    "streamingInfo": {},
+    "originalLanguage": "en"
+}

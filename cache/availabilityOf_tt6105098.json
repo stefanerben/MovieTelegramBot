@@ -1,0 +1,62 @@
+{
+    "imdbID": "tt6105098",
+    "tmdbID": "420818",
+    "imdbRating": 68,
+    "imdbVoteCount": 238560,
+    "tmdbRating": 71,
+    "backdropPath": "/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg",
+        "original": "https://image.tmdb.org/t/p/original/1TUg5pO1VZ4B0Q1amk3OlXvlpXV.jpg"
+    },
+    "originalTitle": "The Lion King",
+    "genres": [
+        16,
+        12,
+        18
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2019,
+    "runtime": 118,
+    "cast": [
+        "Chiwetel Ejiofor",
+        "John Oliver",
+        "James Earl Jones",
+        "John Kani",
+        "Alfre Woodard",
+        "JD McCrary",
+        "Shahadi Wright Joseph"
+    ],
+    "significants": [
+        "Jon Favreau"
+    ],
+    "title": "The Lion King",
+    "overview": "Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother\u2014and former heir to the throne\u2014has plans of his own. The battle for Pride Rock is ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. With help from a curious pair of newfound friends, Simba will have to figure out how to grow up and take back what is rightfully his.",
+    "tagline": "The King has Returned.",
+    "video": "7TavVZMewpY",
+    "posterPath": "/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg",
+        "original": "https://image.tmdb.org/t/p/original/dzBtMocZuJbjLOXvrl4zGYigDzh.jpg"
+    },
+    "age": 6,
+    "streamingInfo": {
+        "disney": {
+            "at": {
+                "link": "https://www.disneyplus.com/movies/-/gDBvSe4GpZPD",
+                "added": 1607822238,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}

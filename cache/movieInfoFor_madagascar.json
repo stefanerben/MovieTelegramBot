@@ -1,0 +1,58 @@
+[
+    {
+        "Title": "Madagascar",
+        "Year": "2005",
+        "imdbID": "tt0351283",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BN2I5YzFlYWEtZjRhNy00ZmQzLWJhNTktZGIwYjFjODdmNDgxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Madagascar: Escape 2 Africa",
+        "Year": "2008",
+        "imdbID": "tt0479952",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNTE2YzljYzAtMzRlMi00ZmY1LThiMTMtZGQ3OTI3MTNmOWI2XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Madagascar 3: Europe's Most Wanted",
+        "Year": "2012",
+        "imdbID": "tt1277953",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZjEzYTZjMmYtZGRjMy00ZGNjLThkMzAtY2Y4Y2E5YWYxNWU2XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Penguins of Madagascar",
+        "Year": "2014",
+        "imdbID": "tt1911658",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTEyMDg4MDU4MjdeQTJeQWpwZ15BbWU4MDQyOTc3MjIx._V1_SX300.jpg"
+    },
+    {
+        "Title": "The Madagascar Penguins in a Christmas Caper",
+        "Year": "2005",
+        "imdbID": "tt0484439",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYzA3OGE1MTgtYzM4NC00YzQyLWI0NmMtODMxMTdiMzEwMzhkXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Merry Madagascar",
+        "Year": "2009",
+        "imdbID": "tt1526300",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNWZlMjRkYjItOGRlOS00MmJkLWI0OWUtZjIyYTUxZTY0NGVmXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Madly Madagascar",
+        "Year": "2013",
+        "imdbID": "tt2702348",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNmViZWQwY2EtNDllZi00YzdjLTg2MzctMzVkZTI4YmQ2ZDlkXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Island of Lemurs: Madagascar",
+        "Year": "2014",
+        "imdbID": "tt3231010",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTY2ODAwMzQxMV5BMl5BanBnXkFtZTgwOTY3MzA3MDE@._V1_SX300.jpg"
+    }
+]

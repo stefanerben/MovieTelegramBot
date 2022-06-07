@@ -1,0 +1,64 @@
+{
+    "imdbID": "tt1277953",
+    "tmdbID": "80321",
+    "imdbRating": 68,
+    "imdbVoteCount": 178098,
+    "tmdbRating": 66,
+    "backdropPath": "/hfdds27YL5nTAhiOtjfNNxD3bJe.jpg",
+    "backdropURLs": {
+        "1280": "https://image.tmdb.org/t/p/w1280/hfdds27YL5nTAhiOtjfNNxD3bJe.jpg",
+        "300": "https://image.tmdb.org/t/p/w300/hfdds27YL5nTAhiOtjfNNxD3bJe.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/hfdds27YL5nTAhiOtjfNNxD3bJe.jpg",
+        "original": "https://image.tmdb.org/t/p/original/hfdds27YL5nTAhiOtjfNNxD3bJe.jpg"
+    },
+    "originalTitle": "Madagascar 3: Europe's Most Wanted",
+    "genres": [
+        16,
+        12,
+        35
+    ],
+    "countries": [
+        "US"
+    ],
+    "year": 2012,
+    "runtime": 93,
+    "cast": [
+        "Ben Stiller",
+        "Chris Rock",
+        "David Schwimmer",
+        "Jada Pinkett Smith",
+        "Frances McDormand",
+        "Sacha Baron Cohen",
+        "Andy Richter"
+    ],
+    "significants": [
+        "Conrad Vernon",
+        "Eric Darnell",
+        "Tom McGrath"
+    ],
+    "title": "Madagascar 3: Europe's Most Wanted",
+    "overview": "Animal pals Alex, Marty, Melman, and Gloria are still trying to make it back to New York's Central Park Zoo. They are forced to take a detour to Europe to find the penguins and chimps who broke the bank at a Monte Carlo casino. When French animal-control officer Capitaine Chantel DuBois picks up their scent, Alex and company are forced to hide out in a traveling circus.",
+    "tagline": "They Have One Shot to Get Back Home.",
+    "video": "FsyBwLYDidA",
+    "posterPath": "/ekraj4ksvIKeuvQVEevEJkuybZd.jpg",
+    "posterURLs": {
+        "154": "https://image.tmdb.org/t/p/w154/ekraj4ksvIKeuvQVEevEJkuybZd.jpg",
+        "185": "https://image.tmdb.org/t/p/w185/ekraj4ksvIKeuvQVEevEJkuybZd.jpg",
+        "342": "https://image.tmdb.org/t/p/w342/ekraj4ksvIKeuvQVEevEJkuybZd.jpg",
+        "500": "https://image.tmdb.org/t/p/w500/ekraj4ksvIKeuvQVEevEJkuybZd.jpg",
+        "780": "https://image.tmdb.org/t/p/w780/ekraj4ksvIKeuvQVEevEJkuybZd.jpg",
+        "92": "https://image.tmdb.org/t/p/w92/ekraj4ksvIKeuvQVEevEJkuybZd.jpg",
+        "original": "https://image.tmdb.org/t/p/original/ekraj4ksvIKeuvQVEevEJkuybZd.jpg"
+    },
+    "age": 3,
+    "streamingInfo": {
+        "netflix": {
+            "at": {
+                "link": "https://www.netflix.com/title/70216224/",
+                "added": 1607861725,
+                "leaving": 0
+            }
+        }
+    },
+    "originalLanguage": "en"
+}

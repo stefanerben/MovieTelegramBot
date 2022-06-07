@@ -1,0 +1,30 @@
+[
+    {
+        "Title": "Star Wars: The Clone Wars",
+        "Year": "2008",
+        "imdbID": "tt1185834",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTI1MDIwMTczOV5BMl5BanBnXkFtZTcwNTI4MDE3MQ@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Clone Wars: Connecting the Dots",
+        "Year": "2005",
+        "imdbID": "tt0872192",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzg2NTJhMmUtZjU5My00MDg1LWJhNzItNjBiN2U2NTY2OWY0XkEyXkFqcGdeQXVyMjg5NDMwMQ@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Clone Wars: Bridging the Saga",
+        "Year": "2005",
+        "imdbID": "tt1045586",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjE2Mjk5Mzk3M15BMl5BanBnXkFtZTcwMDkzMTIzMQ@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Lego Star Wars: The Yoda Chronicles - The Phantom Clone",
+        "Year": "2013",
+        "imdbID": "tt2896278",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTc3Njk1NjQwOF5BMl5BanBnXkFtZTgwNjU2MzE5MDE@._V1_SX300.jpg"
+    }
+]
