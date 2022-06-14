@@ -16,6 +16,14 @@ basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=INFO)
 logger = getLogger(__name__)
 
+user_stefan = 493061159
+user_andi = 149973288
+user_klaus = 123
+user_manuel = 10896899
+
+
+ALLOWED_USERS = [user_stefan, user_andi, user_klaus, user_manuel]
+
 
 
 TOKEN = '5363080082:AAHltCun16zDne1St_7dGuaJTMIoQPYu0_E' # @movie_syi_bot
@@ -25,24 +33,24 @@ def main():
     updater = Updater(token=TOKEN)
     dispatcher = updater.dispatcher
     
-    start_handler = CommandHandler('start', start)
+    start_handler = CommandHandler('start', start, Filters.chat(ALLOWED_USERS))
     dispatcher.add_handler(start_handler)
 
-    keyboard_handler = CommandHandler('keyboard', getkeyboard)
+    keyboard_handler = CommandHandler('keyboard', getkeyboard, Filters.chat(ALLOWED_USERS))
     dispatcher.add_handler(keyboard_handler)
     
-    cancel_handler = CommandHandler('cancel', cancel)
+    cancel_handler = CommandHandler('cancel', cancel, Filters.chat(ALLOWED_USERS))
     dispatcher.add_handler(cancel_handler)
 
-    movieInfo_handler = MessageHandler(Filters.regex('^(🔀 Random Movie)$'), getMovieInformation)
+    movieInfo_handler = MessageHandler(Filters.regex('^(🔀 Random Movie)$'), getMovieInformation, Filters.chat(ALLOWED_USERS))
     dispatcher.add_handler(movieInfo_handler)
 
     content_handler = ConversationHandler(
-        entry_points=[MessageHandler(Filters.regex('^(🔎 Search Movie)$'), conversionhandler.search)],
+        entry_points=[MessageHandler(Filters.regex('^(🔎 Search Movie)$'), conversionhandler.search, Filters.chat(ALLOWED_USERS))],
         states={
-            1: [MessageHandler(Filters.text & (~Filters.command), conversionhandler.findMovies)],
+            1: [MessageHandler(Filters.text & (~Filters.command), conversionhandler.findMovies, Filters.chat(ALLOWED_USERS))],
         },
-        fallbacks=[CommandHandler('cancel', conversionhandler.done)]
+        fallbacks=[CommandHandler('cancel', conversionhandler.done, Filters.chat(ALLOWED_USERS))]
     )
     dispatcher.add_handler(content_handler)
     
