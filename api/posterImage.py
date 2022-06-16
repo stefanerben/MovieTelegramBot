@@ -5,7 +5,7 @@ from io import BytesIO
 
 
 def getPosterImage(posterData):
-    url = 'http://cloud.mattes.cc:3000/poster'
+    url = 'insertYourAPIendpointHere'
     img_data = requests.post(url, data = posterData)
 
     f = open("sample.txt", "wb")

@@ -26,7 +26,7 @@ def getStreamingAvailabilityFor(imdbId):
 
     headers = {
         "X-RapidAPI-Host": "streaming-availability.p.rapidapi.com",
-        "X-RapidAPI-Key": "c49163ae7cmsh07d1242fe9581cfp18f04djsnfe1cde4a1b7a"
+        "X-RapidAPI-Key": "yourAPIkey"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
